@@ -2,8 +2,14 @@ public class Swap2Numbers {
 
     public static void main(String[] args) {
 
-        int a = 10;
-        int b = 10;
+        swappingWithTemp(20,30);
+
+        swappingWithoutTemp(10,12);
+
+    }
+
+    static void swappingWithTemp(int a, int b){
+
         int temp;
 
         if (a == b){
@@ -15,9 +21,18 @@ public class Swap2Numbers {
             b = a;
             a = temp;
 
-            System.out.println("After Swapping: ");
-            System.out.println("The value of a is : " + a + " and b is : " + b);
+            System.out.println("Using temp variable, The value of a is : " + a + " and b is : " + b);
         }
+
+    }
+
+    static void swappingWithoutTemp(int a, int b) {
+
+        a = a + b; // 10 + 12 = 22
+        b = a - b; // 22 - 12 = 10 -> b swapped
+        a = a - b; // 22 - 10 = 12 -> a swapped
+
+        System.out.println("Without using temp variable, the value of a is : " + a + " and b is : " + b);
 
     }
 }
