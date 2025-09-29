@@ -6,6 +6,8 @@ public class Swap2Numbers {
 
         swappingWithoutTemp(10,12);
 
+        swappingNumbersUsingXOR(5,4);
+
     }
 
     static void swappingWithTemp(int a, int b){
@@ -33,6 +35,17 @@ public class Swap2Numbers {
         a = a - b; // 22 - 10 = 12 -> a swapped
 
         System.out.println("Without using temp variable, the value of a is : " + a + " and b is : " + b);
+
+    }
+
+    static void swappingNumbersUsingXOR(int a, int b){
+
+        a = a ^ b;
+        b = a ^ b;
+        a = a ^ b;
+
+        System.out.println("Using XOR Operation, " + a + " " + b);
+
 
     }
 }
