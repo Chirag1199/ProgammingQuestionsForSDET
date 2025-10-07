@@ -1,3 +1,5 @@
+package com.Basics;
+
 public class PrintDuplicates {
 
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package com.Basics;
+
 import java.util.Arrays;
 
 public class PrintEvenWordFromString {

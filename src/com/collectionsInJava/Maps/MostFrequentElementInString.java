@@ -1,4 +1,5 @@
-import java.io.CharArrayReader;
+package com.collectionsInJava.Maps;
+
 import java.util.*;
 
 public class MostFrequentElementInString {
@@ -22,7 +23,7 @@ public class MostFrequentElementInString {
             }
         }
 
-        System.out.println(map);
+        System.out.println(map.entrySet());
 
         // {a=3, B=1, n=2} --> Collections []
 

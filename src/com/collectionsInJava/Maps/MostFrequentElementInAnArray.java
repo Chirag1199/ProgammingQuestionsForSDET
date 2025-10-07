@@ -1,3 +1,5 @@
+package com.collectionsInJava.Maps;
+
 import java.util.HashMap;
 import java.util.Map;
 

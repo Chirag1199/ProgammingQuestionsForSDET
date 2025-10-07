@@ -1,3 +1,5 @@
+package com.Basics;
+
 public class ReverseIntegerNumber {
 
     public static void main(String[] args) {
