@@ -1,23 +1,17 @@
-package com.Basics;
-
-import java.lang.management.GarbageCollectorMXBean;
+package com.SDETProgrammingQuestions;
 
 public class MissingNumberInAnArray {
 
     public static void main(String[] args) {
 
-
         missingNumberInAnArray(new int[]{9,10,11,13,14});
 
-
-    }
+     }
 
     static void missingNumberInAnArray(int arr[]) {
 
         // 1. Find the minimum and maximum values in the array. The minimum is the smallest number,
         // and the maximum is the largest number in the array.
-
-
 
         int n = arr.length;
 

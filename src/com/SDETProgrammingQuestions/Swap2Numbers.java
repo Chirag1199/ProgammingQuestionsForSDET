@@ -1,4 +1,4 @@
-package com.Basics;
+package com.SDETProgrammingQuestions;
 
 public class Swap2Numbers {
 

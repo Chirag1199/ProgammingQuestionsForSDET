@@ -1,6 +1,6 @@
-package com.Basics;
+package com.SDETProgrammingQuestions;
 
-public class PrintDuplicates {
+public class FrequencyOfChars {
 
     public static void main(String[] args) {
 
@@ -32,9 +32,11 @@ public class PrintDuplicates {
                 repeatedChars += c[i];
             }
 
+            System.out.println("The char " + c[i] + " occurs " + count + " time(s)");
+
         }
 
-        System.out.println("The number of chars repeated in a string is: " + repeatedChars);
+
 
 
     }

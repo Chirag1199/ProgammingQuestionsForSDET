@@ -1,4 +1,4 @@
-package com.Basics;
+package com.SDETProgrammingQuestions;
 
 import java.util.Arrays;
 
