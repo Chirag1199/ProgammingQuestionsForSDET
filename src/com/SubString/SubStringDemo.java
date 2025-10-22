@@ -6,10 +6,8 @@ public class SubStringDemo {
 
     public static void main(String[] args) {
 
-        String word = "abc";
+        String word = "abcabc";
         int n = word.length();
-
-
 
         for (int i = 0; i < n; i++) {
 
