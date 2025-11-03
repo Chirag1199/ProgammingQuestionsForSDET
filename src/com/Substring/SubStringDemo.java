@@ -1,6 +1,4 @@
-package com.SubString;
-
-import java.util.Arrays;
+package com.Substring;
 
 public class SubStringDemo {
 

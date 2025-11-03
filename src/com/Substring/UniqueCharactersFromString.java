@@ -1,8 +1,4 @@
-package com.SubString;
-
-import java.io.FilterOutputStream;
-import java.util.ArrayList;
-import java.util.Arrays;
+package com.Substring;
 
 public class UniqueCharactersFromString {
 

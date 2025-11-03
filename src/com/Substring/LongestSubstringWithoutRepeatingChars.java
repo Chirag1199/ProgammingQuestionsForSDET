@@ -1,4 +1,4 @@
-package com.SubString;
+package com.Substring;
 
 import java.util.ArrayList;
 
