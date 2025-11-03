@@ -1,4 +1,4 @@
-package SortingAlgorithm;
+package com.SortingAlgorithm;
 
 import java.util.Arrays;
 
@@ -38,3 +38,5 @@ public class BubbleSortAlgorithm {
 	}
 
 }
+
+/* Time complexity - O(n^2) */
