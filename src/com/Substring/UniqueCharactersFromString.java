@@ -1,16 +1,27 @@
 package com.Substring;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class UniqueCharactersFromString {
 
     public static void main(String[] args) {
 
-        String arr = "abbacdaab";
+        uniqueChars("aabbcdacdb");
+
+        uniqueCharsUsingSetMethod("aabbcdacdb");
+
+
+
+    }
+
+    static void uniqueChars(String str){
 
         String result = "";
 
-        for (int i = 0; i < arr.length(); i++) {
+        for (int i = 0; i < str.length(); i++) {
 
-            char ch = arr.charAt(i);
+            char ch = str.charAt(i);
 
             if (result.indexOf(ch) == -1) {
                 result += ch;
@@ -19,8 +30,23 @@ public class UniqueCharactersFromString {
 
         }
 
-        System.out.println(result);
+        System.out.println("Without Using Set method: " + result);
+    }
 
+    static void uniqueCharsUsingSetMethod(String str){
+
+        Set<Character> set = new HashSet<Character>();
+
+        for (int i = 0; i < str.length(); i++) {
+
+            char ch = str.charAt(i);
+
+            if (!set.contains(ch)) {
+                set.add(ch);
+            }
+        }
+
+        System.out.println("Using Set: " + set);
     }
 
 }
