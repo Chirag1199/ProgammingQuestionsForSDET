@@ -1,12 +1,12 @@
-import java.io.CharArrayReader;
+package com.Collections.Maps;
+
 import java.util.*;
 
 public class MostFrequentElementInString {
 
     static void repeatedCharInString(String str) {
 
-        String name = "Banana";
-        char[] c = name.toCharArray();
+        char[] c = str.toCharArray();
         int n = c.length;
 
         Map<Character, Integer> map = new HashMap<>();
@@ -22,7 +22,7 @@ public class MostFrequentElementInString {
             }
         }
 
-        System.out.println(map);
+        System.out.println(map.entrySet());
 
         // {a=3, B=1, n=2} --> Collections []
 
@@ -44,7 +44,7 @@ public class MostFrequentElementInString {
     public static void main(String[] args) {
 
 
-        repeatedCharInString("banana");
+        repeatedCharInString("xYYZZZZ");
 
     }
 

@@ -1,3 +1,5 @@
+package com.SDETProgrammingQuestions;
+
 public class RemoveDuplicateNumbers {
 
     public static void main(String[] args) {

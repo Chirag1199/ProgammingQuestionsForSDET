@@ -1,3 +1,5 @@
+package com.SDETProgrammingQuestions;
+
 import java.util.Arrays;
 
 public class PrintEvenWordFromString {
