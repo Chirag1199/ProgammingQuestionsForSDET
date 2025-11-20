@@ -6,8 +6,7 @@ public class MostFrequentElementInString {
 
     static void repeatedCharInString(String str) {
 
-        String name = "Banana";
-        char[] c = name.toCharArray();
+        char[] c = str.toCharArray();
         int n = c.length;
 
         Map<Character, Integer> map = new HashMap<>();
@@ -45,7 +44,7 @@ public class MostFrequentElementInString {
     public static void main(String[] args) {
 
 
-        repeatedCharInString("banana");
+        repeatedCharInString("xYYZZZZ");
 
     }
 
